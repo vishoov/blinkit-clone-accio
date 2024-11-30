@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    width:100%;
+    height:86px;
+    position:sticky;
+    top:0;
+    border-bottom:1px solid rgb(238, 238, 238);
+    background-color: white;
+    display:flex;
+    align-items: center;
+}
+
+.header-container{
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+
+.header-left{
+    margin-left:25px;
+    margin-right: 80px;
+}
+
+.header-location{
+    width:250px;
+    margin-right: 0px;
+}
+
+.header-location-title{
+    color:black;
+    font-weight:800;
+    margin-bottom: 5px;
+    font-size:16px;
+}
+
+.header-location-desc{
+    font-size:13px;
+    color: black;
+    font-weight:400;
+}
+
+.header-search{
+    width:500px;
+    height:46px;
+    cursor:text;
+    border:1px solid rgba(0, 0, 0 ,0.04);
+    border-radius:12px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:0 10px;
+    margin-right:55px;
+    background-color: rgba(182, 180, 180, 0.1);
+
+}
+
+.header-search svg{
+    width:20px;
+    font-weight:600;
+}
+
+
+.header-search input{
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+
+
+.header-login{
+    font-size:18px;
+    font-weight:400;
+    color:rgb(54, 54, 54);
+    margin-right: 70px;
+}
+
+.header-right{
+    width: 112px;
+    height:52px;
+    background-color: rgb(12, 131, 31);
+    color:white;
+    font-size:14px;
+    font-weight:400;
+    border-radius:8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-right svg{
+    width:24px;
+    margin-right: 8px;
+}
+
+
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.main-container{
+    max-width: 1180px;
+}
+
+.section-1, .section-1 img{
+    width:100%;
+}
+
+.section-2{
+    width:100%;
+    display:flex;
+    margin:0 16px;
+    gap:20px;
+    border-radius:12px;
+    overflow:auto scroll;
+    scrollbar-width: none;
+}
+
+.section-2-img{
+    height:200px;
+    width:335px;
+    cursor:pointer;
+    display:flex;
+}
+
+.section-3{
+    margin-top:16px;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.section-3-img{
+    width:110px;
+}
+
+.section-3-img img{
+    width:100%;
+    cursor: pointer;
+}
+
+.section-4 {
+    margin: 16px;
+}
+.section-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-list {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    overflow: auto scroll;
+    scrollbar-width: none;
+    gap: 20px;
+}
+.product-card {
+    padding: 12px;
+    min-width: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:194;
+    border: 0.5px solid rgb(221, 221, 221);
+    border-radius: 8px;
+}
+.product-card img {
+    width: 100%;
+}
+.product-card-title {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.product-card-desc {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #757575;
+}
+.product-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.product-action button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(247, 255, 249);
+    border: 0.5px solid rgb(12, 131, 31);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height:100vh;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    padding: 0 36px;
+}
+
+.upper{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+   
+    
+
+}
+
+
+.left{
+    display:flex;
+    gap:20px;
+    width:30vw;
+    flex-direction: column;
+}
+
+.lists{
+    display:flex;
+    color:#000;
+}
+
+.lists a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    color: #757575;
+}
+
+.links{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+}
+
+
+.right{
+    display:flex;
+    gap:20px;
+    width:70vw;
+    height:70%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.categories{
+   
+    display:flex;
+    gap:30px;
+}
+
+
+
+.list{
+    margin:20px;
+}
+.list a{
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+    margin:20px;
+    line-height: 40px;
+    font-weight:500;
+    color: #757575;
+}
+
+.lower{
+    display: flex;
+    width: 100%;
+    padding:0 20%;
+    justify-content: space-around;
+    align-items: center;
+}
